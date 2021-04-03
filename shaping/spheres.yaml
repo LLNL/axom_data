@@ -1,0 +1,15 @@
+dimensions: 3
+units: cm
+shapes:
+  - name: inner_ball
+    material: void
+    replaces: [steel]
+    geometry:
+      format: stl
+      path: sphere_r2.stl
+  - name: outer_shell
+    material: steel
+    does_not_replace: [void]
+    geometry:
+      format: stl
+      path: sphere_r5.stl
