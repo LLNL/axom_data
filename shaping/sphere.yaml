@@ -1,0 +1,7 @@
+dimensions: 3
+shapes:
+  - name: sphere
+    material: steel
+    geometry:
+      format: stl
+      path: ../quest/sphere.stl

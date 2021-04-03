@@ -13,3 +13,4 @@ shapes:
     geometry:
       format: stl
       path: sphere_r5.stl
+
