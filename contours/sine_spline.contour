@@ -1,12 +1,12 @@
 point = spline_start
-piece = rz(units=cm, spline=cubic, beginTan=-90deg, endTan=-90deg, rz=6.283185307179586 1.5
-		5.235987755982989 0.5
-		4.1887902047863905 1.5
-		3.141592653589793 0.5
-		2.0943951023931953 1.5
-		1.0471975511965976 0.5
-		0 1.5)
+piece = rz(units=cm, spline=cubic, beginTan=-180deg, endTan=-180deg, rz=1.5 6.283185307179586
+		0.5 5.235987755982989
+		1.5 4.1887902047863905
+		0.5 3.141592653589793
+		1.5 2.0943951023931953
+		0.5 1.0471975511965976
+		1.5 0)
 point = spline_end
 piece = line(end=(0cm,0cm))
-piece = line(end=(6.283185307179586cm,0cm))
+piece = line(end=(0cm,6.283185307179586cm))
 piece = line(end=spline_start)
