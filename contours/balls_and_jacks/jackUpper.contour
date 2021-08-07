@@ -1,0 +1,20 @@
+point = start
+piece = circle(origin=(23cm, 11cm), radius=1.5cm, start=180deg, end=0deg)
+
+piece = line(end=(29.5cm, 12.5cm))
+piece = line()
+
+piece = circle(origin=(31cm,25cm), radius=1.5cm, start=-90deg, end=90deg)
+
+piece = line(end=(32.5cm, 12.5cm))
+piece = line()
+
+piece = circle(origin=(45cm,11cm), radius=1.5cm, start=0deg, end=180deg)
+
+piece = line(end=(32.5cm, 9.5cm))
+piece = line()
+
+piece = circle(origin=(31cm,2cm), radius=1.5cm, start=90deg, end=-90deg)
+
+piece = line(end=(29.5cm, 9.5cm))
+piece = line(end=start)

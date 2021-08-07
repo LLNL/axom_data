@@ -1,0 +1,43 @@
+point = start
+
+piece = circle(origin=(10cm, -135deg), start=135deg, end=-45deg, radius=1cm),
+    translate(delta=(9cm, 9cm))
+
+point = lower_left_cap_end
+
+piece = line(start=(0cm, 0cm), end=(9cm, 45deg)),
+    translate(delta=lower_left_cap_end)
+
+piece = line()
+
+piece = circle(origin=(10cm, -45deg), start=-135deg, end=45deg, radius=1cm),
+    translate(delta=(9cm, 9cm))
+
+point = lower_right_cap_end
+
+piece = line(start=(0cm, 0cm), end=(9cm, 135deg)),
+    translate(delta=lower_right_cap_end)
+
+piece = line()
+
+piece = circle(origin=(16cm, 45deg), start=-45deg, end=135deg, radius=1cm),
+    translate(delta=(9cm, 9cm))
+
+point = upper_right_cap_end
+
+piece = line(start=(0cm, 0cm), end=(15cm, -135deg)),
+    translate(delta=upper_right_cap_end)
+
+piece = line()
+
+piece = circle(origin=(8cm, 135deg), start=45deg, end=-135deg, radius=1cm),
+    translate(delta=(9cm, 9cm))
+
+point = upper_left_cap_end
+
+piece = line(start=(0cm, 0cm), end=(7cm, -45deg)),
+    translate(delta=upper_left_cap_end)
+
+piece = line(end=start)
+
+
