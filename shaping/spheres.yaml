@@ -5,9 +5,15 @@ shapes:
     material: steel
     geometry:
       format: stl
-      path: sphere_r5.stl
+      path: ../quest/unit_sphere.stl
+      units: cm
+      operators:
+        - scale: 5
   - name: inner_ball
     material: void
     geometry:
       format: stl
-      path: sphere_r2.stl
+      path: ../quest/unit_sphere.stl
+      units: cm
+      operators:
+        - scale: 2
