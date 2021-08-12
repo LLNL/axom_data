@@ -1,0 +1,9 @@
+dimensions: 2
+units: cm
+shapes:
+  - name: cylinder
+    material: steel
+    geometry:
+      format: c2c
+      path: ../contours/horizontal_line.contour
+
