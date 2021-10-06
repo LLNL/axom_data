@@ -1,0 +1,20 @@
+dimensions: 2
+units: cm
+shapes:
+  - name: inner_ball
+    material: void
+    geometry:
+      format: c2c
+      path: ../contours/unit_circle.contour
+      units: cm
+      operators:
+        - scale: 2
+  - name: outer_shell
+    material: steel
+    does_not_replace: [void]
+    geometry:
+      format: c2c
+      path: ../contours/unit_circle.contour
+      units: cm
+      operators:
+        - scale: 5

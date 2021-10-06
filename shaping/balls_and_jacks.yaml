@@ -1,0 +1,38 @@
+# Sample code-agnostic shaping input for the "Balls and Jacks" problem
+
+dimensions: 2
+
+shapes:
+  - name: ballUpperOuter
+    material: rubber
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/ballUpperOuter.contour
+  - name: ballUpperInner
+    material: air
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/ballUpperInner.contour
+
+  - name: ballLowerOuter
+    material: rubber
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/ballLowerOuter.contour
+  - name: ballLowerInner
+    material: air
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/ballLowerInner.contour
+
+  - name: jackUpper
+    material: steel
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/jackUpper.contour
+
+  - name: jackLower
+    material: steel
+    geometry:
+      format: c2c
+      path: ../contours/balls_and_jacks/jackLower.contour

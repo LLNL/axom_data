@@ -1,0 +1,19 @@
+dimensions: 3
+units: cm
+shapes:
+  - name: outer_shell
+    material: steel
+    geometry:
+      format: stl
+      path: ../quest/unit_sphere.stl
+      units: cm
+      operators:
+        - scale: 5
+  - name: inner_ball
+    material: void
+    geometry:
+      format: stl
+      path: ../quest/unit_sphere.stl
+      units: cm
+      operators:
+        - scale: 2

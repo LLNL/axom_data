@@ -1,0 +1,8 @@
+dimensions: 2
+units: cm
+shapes:
+  - name: outer_shell
+    material: steel
+    geometry:
+      format: c2c
+      path: ../contours/semi_circle_r1.contour
