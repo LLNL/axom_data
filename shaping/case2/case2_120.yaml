@@ -1,0 +1,20 @@
+# Order 1,2,0
+dimensions: 2
+
+shapes:
+- name: shape1
+  material: mat1
+  geometry:
+    format: c2c
+    path: ../../contours/case2/innercircle1.contour
+- name: shape2
+  material: mat2
+  geometry:
+    format: c2c
+    path: ../../contours/case2/innercircle2.contour
+- name: shape0
+  material: mat0
+  does_not_replace: [mat1,mat2]
+  geometry:
+    format: c2c
+    path: ../../contours/case2/outercircle.contour
