@@ -1,0 +1,2 @@
+piece = circle(origin=(27cm,-3cm), radius=8cm, start=270deg, end=450deg)
+piece = line(end=(19cm,-3cm))

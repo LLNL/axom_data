@@ -1,0 +1,6 @@
+pieces = contour(path='darkgreen0.contour')
+pieces = contour(path='darkgreen1.contour')
+pieces = contour(path='darkgreen2.contour')
+pieces = contour(path='darkgreen3.contour')
+pieces = contour(path='darkgreen4.contour')
+pieces = contour(path='darkgreen5.contour')
