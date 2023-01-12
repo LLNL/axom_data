@@ -1,0 +1,19 @@
+# Order 0,1,2
+dimensions: 2
+
+shapes:
+- name: shape0
+  material: mat0
+  geometry:
+    format: c2c
+    path: ../../contours/case3/outercircle.contour
+- name: shape1
+  material: mat1
+  geometry:
+    format: c2c
+    path: ../../contours/case3/middlecircle.contour
+- name: shape2
+  material: mat2
+  geometry:
+    format: c2c
+    path: ../../contours/case3/innercircle.contour
