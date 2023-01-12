@@ -1,0 +1,33 @@
+dimensions: 2
+
+shapes:
+# Shape in under the lower curves as mat0
+- name: shape0
+  material: mat0
+  geometry:
+    format: c2c
+    path: ../../contours/case4/part2.contour
+- name: shape1
+  material: mat0
+  geometry:
+    format: c2c
+    path: ../../contours/case4/part3.contour
+# Shape in under the upper curves as mat1 - does not replace mat0
+- name: shape2
+  material: mat1
+  does_not_replace: [mat0]
+  geometry:
+    format: c2c
+    path: ../../contours/case4/part0.contour
+- name: shape3
+  material: mat1
+  does_not_replace: [mat0]
+  geometry:
+    format: c2c
+    path: ../../contours/case4/part1.contour
+# This shape overwrites EVERYTHING with mat0.
+- name: shape4
+  material: mat0
+  geometry:
+    format: c2c
+    path: ../../contours/case4/outer.contour

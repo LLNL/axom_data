@@ -1,0 +1,16 @@
+# This is the spline we want.
+#piece = rz(units=cm,
+#  rz=0.35 0.04
+#     0.28 0.06    
+#     0.25 0.08
+#     0.15 0.24
+#     0.25 0.4
+#     0.35 0.5
+#)
+
+# Splines are not working well right now. Use lines for now.
+piece = line(start=(0.35cm,0.04cm), end=(0.28cm, 0.06cm))
+piece = line(end=(0.25cm,0.08cm))
+piece = line(end=(0.15cm,0.24cm))
+piece = line(end=(0.25cm,0.4cm))
+piece = line(end=(0.35cm,0.5cm))
