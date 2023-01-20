@@ -1,0 +1,18 @@
+piece = rz(units=cm,
+  rz=248 148
+     233 139
+     219 130
+     204 121
+     194 116
+)
+
+piece = line(end=(188cm,125cm))
+piece = rz(units=cm,
+  rz=188 125
+     200 131
+     215 143
+     230 152
+     243 158
+)
+
+piece = line(end=(248cm,148cm))

@@ -1,0 +1,10 @@
+piece = line(start=(61cm,236cm), end=(48cm,243cm))
+piece = line(end=(49cm,249cm))
+piece = rz(units=cm,
+  rz=49 249
+     67 241
+     70 239
+     70 236
+     68 234
+)
+piece = line(end=(61cm,236cm))

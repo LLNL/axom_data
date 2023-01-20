@@ -1,0 +1,528 @@
+dimensions: 2
+
+shapes:
+- name: greenishbrown0
+  material: greenishbrown
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/greenishbrown.contour
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/brightgreen.contour
+  does_not_replace: ["greenishbrown"]
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen0.contour
+- name: darkgreen1
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen1.contour
+- name: darkgreen2
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen2.contour
+- name: darkgreen3
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen3.contour
+- name: darkgreen4
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen4.contour
+- name: darkgreen5
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen5.contour
+- name: blue0
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue0.contour
+- name: blue1
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue1.contour
+- name: blue2
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue2.contour
+- name: blue3
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue3.contour
+- name: blue4
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue4.contour
+- name: blue5
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue5.contour
+- name: blue6
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/blue6.contour
+- name: yellow0
+  material: yellow
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/yellow0.contour
+- name: yellow1
+  material: yellow
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/yellow1.contour
+- name: yellow2
+  material: yellow
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/yellow2.contour
+- name: purplish0
+  material: purplish
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/purplish0.contour
+- name: purplish1
+  material: purplish
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/purplish1.contour
+- name: pink0
+  material: pink
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/pink0.contour
+  does_not_replace: ["darkgreen"]
+- name: pink1
+  material: pink
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/pink1.contour
+  does_not_replace: ["darkgreen"]
+- name: black0
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black0.contour
+- name: black1
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black1.contour
+- name: black2
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black2.contour
+- name: black3
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black3.contour
+- name: black4
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black4.contour
+- name: black5
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black5.contour
+- name: black6
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black6.contour
+- name: black7
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black7.contour
+- name: black8
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black8.contour
+- name: black9
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black9.contour
+#- name: black10
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black10.contour
+#- name: black11
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black11.contour
+- name: black12
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black12.contour
+- name: black13
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black13.contour
+- name: black14
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black14.contour
+- name: black15
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black15.contour
+- name: black16
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black16.contour
+- name: black17
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black17.contour
+- name: black18
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black18.contour
+- name: black19
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black19.contour
+#- name: black20
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black20.contour
+#- name: black21
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black21.contour
+- name: black22
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black22.contour
+- name: black23
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black23.contour
+#- name: black24
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black24.contour
+- name: black25
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black25.contour
+- name: black26
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black26.contour
+- name: black27
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black27.contour
+- name: black28
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black28.contour
+#- name: black29
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black29.contour
+- name: black30
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black30.contour
+- name: black31
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black31.contour
+- name: black32
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black32.contour
+- name: black33
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black33.contour
+- name: black34
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black34.contour
+#- name: black35
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black35.contour
+- name: black36
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black36.contour
+- name: black37
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black37.contour
+- name: black38
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black38.contour
+#- name: black39
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black39.contour
+#- name: black40
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black40.contour
+- name: black41
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black41.contour
+#- name: black42
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black42.contour
+- name: black43
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black43.contour
+- name: black44
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black44.contour
+#- name: black45
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black45.contour
+#- name: black46
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black46.contour
+#- name: black47
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black47.contour
+- name: black48
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black48.contour
+- name: black49
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black49.contour
+- name: black50
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black50.contour
+- name: black51
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black51.contour
+- name: black52
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black52.contour
+#- name: black53
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black53.contour
+- name: black54
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black54.contour
+- name: black55
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black55.contour
+#- name: black56
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black56.contour
+#- name: black57
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black57.contour
+- name: black58
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black58.contour
+#- name: black59
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black59.contour
+- name: black60
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black60.contour
+- name: black61
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black61.contour
+- name: black62
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black62.contour
+#- name: black63
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black63.contour
+#- name: black64
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black64.contour
+#- name: black65
+#  material: black
+#  geometry:
+#    format: c2c
+#    path: ../contours/heroic_roses/black65.contour
+- name: black66
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black66.contour
+- name: black67
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black67.contour
+- name: black68
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black68.contour
+- name: black69
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black69.contour
+- name: black70
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black70.contour
+- name: black71
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black71.contour
+- name: red0
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red0.contour
+  does_not_replace: ["black"]
+- name: red1
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red1.contour
+  does_not_replace: ["black"]
+- name: red2
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red2.contour
+  does_not_replace: ["black"]
+- name: red3
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red3.contour
+  does_not_replace: ["black"]
+- name: red4
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red4.contour
+  does_not_replace: ["black"]
+- name: red5
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red5.contour
+  does_not_replace: ["black"]
+- name: red6
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red6.contour
+  does_not_replace: ["black"]
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/brightgreen_over.contour
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/darkgreen_over1.contour

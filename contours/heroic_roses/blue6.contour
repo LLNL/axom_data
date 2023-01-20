@@ -1,0 +1,4 @@
+piece = line(start=(325cm,69cm), end=(349cm,100cm))
+piece = line(end=(399cm,108cm))
+piece = line(end=(399cm,62cm))
+piece = line(end=(325cm,69cm))

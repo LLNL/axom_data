@@ -1,0 +1,5 @@
+# red covers pink but not black
+piece = line(start=(74cm,74cm), end=(68cm,82cm))
+piece = line(end=(74cm,85cm))
+piece = line(end=(73cm,81cm))
+piece = line(end=(74cm,74cm))

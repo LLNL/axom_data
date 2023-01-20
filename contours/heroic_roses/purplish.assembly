@@ -1,0 +1,2 @@
+pieces = contour(path='purplish0.contour')
+pieces = contour(path='purplish1.contour')

@@ -1,0 +1,11 @@
+piece = line(start=(180cm,208cm), end=(188cm,213cm))
+piece = line(end=(196cm,198cm))
+piece = line(end=(202cm,185cm))
+piece = line(end=(196cm,182cm))
+piece = rz(units=cm,
+  rz=196 182
+     190 195
+     180 208
+)
+
+piece = line(end=(188cm,213cm))

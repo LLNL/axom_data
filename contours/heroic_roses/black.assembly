@@ -1,0 +1,39 @@
+pieces = contour(path='black0.contour')
+pieces = contour(path='black1.contour')
+pieces = contour(path='black2.contour')
+pieces = contour(path='black3.contour')
+pieces = contour(path='black4.contour')
+pieces = contour(path='black5.contour')
+pieces = contour(path='black6.contour')
+pieces = contour(path='black7.contour')
+pieces = contour(path='black8.contour')
+pieces = assembly(path='blackswirl1.assembly')
+pieces = assembly(path='blackswirl2.assembly')
+
+
+pieces = contour(path='black44.contour')
+pieces = contour(path='black45.contour')
+
+pieces = contour(path='black46.contour')
+
+pieces = contour(path='black47.contour')
+pieces = contour(path='black48.contour')
+pieces = contour(path='black49.contour')
+
+pieces = contour(path='black50.contour')
+pieces = contour(path='black51.contour')
+pieces = contour(path='black52.contour')
+pieces = contour(path='black53.contour')
+pieces = contour(path='black54.contour')
+pieces = contour(path='black55.contour')
+pieces = contour(path='black56.contour')
+pieces = contour(path='black57.contour')
+
+pieces = contour(path='black58.contour')
+pieces = contour(path='black59.contour')
+pieces = contour(path='black60.contour')
+pieces = contour(path='black61.contour')
+
+pieces = contour(path='black62.contour')
+pieces = contour(path='black63.contour')
+pieces = contour(path='black64.contour')
