@@ -26,7 +26,6 @@ def main():
           {"mat":"yellow","num": 3, "file":"yellow%d.contour", "dnr":[]},
           {"mat":"purplish","num": 2, "file":"purplish%d.contour", "dnr":[]},
           {"mat":"pink","num": 2, "file":"pink%d.contour", "dnr":["darkgreen"]},
-          # NOTE: swap red/black when replacement rules work.
           {"mat":"black","num": 69, "file":"black%d.contour", "dnr":[]},
           {"mat":"red","num": 6, "file":"red%d.contour", "dnr":["black"]},
           {"mat":"brightgreen","num": 1, "file":"brightgreen_over.contour", "dnr":[]},
@@ -38,7 +37,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# black3.contour causes a crash in Axom
-# red5.contour causes a crash in Axom
-# black10.contour needs to be split.

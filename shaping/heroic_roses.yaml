@@ -114,48 +114,6 @@ shapes:
     format: c2c
     path: ../contours/heroic_roses/pink1.contour
   does_not_replace: ["darkgreen"]
-- name: red0
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red0.contour
-  does_not_replace: ["black"]
-- name: red1
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red1.contour
-  does_not_replace: ["black"]
-- name: red2
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red2.contour
-  does_not_replace: ["black"]
-- name: red3
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red3.contour
-  does_not_replace: ["black"]
-- name: red4
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red4.contour
-  does_not_replace: ["black"]
-- name: red5
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red5.contour
-  does_not_replace: ["black"]
-- name: red6
-  material: red
-  geometry:
-    format: c2c
-    path: ../contours/heroic_roses/red6.contour
-  does_not_replace: ["black"]
 - name: black0
   material: black
   geometry:
@@ -516,7 +474,48 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black71.contour
-
+- name: red0
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red0.contour
+  does_not_replace: ["black"]
+- name: red1
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red1.contour
+  does_not_replace: ["black"]
+- name: red2
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red2.contour
+  does_not_replace: ["black"]
+- name: red3
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red3.contour
+  does_not_replace: ["black"]
+- name: red4
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red4.contour
+  does_not_replace: ["black"]
+- name: red5
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red5.contour
+  does_not_replace: ["black"]
+- name: red6
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/red6.contour
+  does_not_replace: ["black"]
 - name: brightgreen0
   material: brightgreen
   geometry:
