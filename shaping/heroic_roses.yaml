@@ -164,16 +164,16 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black9.contour
-#- name: black10
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black10.contour
-#- name: black11
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black11.contour
+- name: black10
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black10.contour
+- name: black11
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black11.contour
 - name: black12
   material: black
   geometry:
@@ -214,16 +214,16 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black19.contour
-#- name: black20
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black20.contour
-#- name: black21
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black21.contour
+- name: black20
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black20.contour
+- name: black21
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black21.contour
 - name: black22
   material: black
   geometry:
@@ -234,11 +234,11 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black23.contour
-#- name: black24
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black24.contour
+- name: black24
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black24.contour
 - name: black25
   material: black
   geometry:
@@ -259,11 +259,11 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black28.contour
-#- name: black29
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black29.contour
+- name: black29
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black29.contour
 - name: black30
   material: black
   geometry:
@@ -289,11 +289,11 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black34.contour
-#- name: black35
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black35.contour
+- name: black35
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black35.contour
 - name: black36
   material: black
   geometry:
@@ -309,26 +309,26 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black38.contour
-#- name: black39
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black39.contour
-#- name: black40
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black40.contour
+- name: black39
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black39.contour
+- name: black40
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black40.contour
 - name: black41
   material: black
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black41.contour
-#- name: black42
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black42.contour
+- name: black42
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black42.contour
 - name: black43
   material: black
   geometry:
@@ -339,21 +339,21 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black44.contour
-#- name: black45
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black45.contour
-#- name: black46
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black46.contour
-#- name: black47
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black47.contour
+- name: black45
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black45.contour
+- name: black46
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black46.contour
+- name: black47
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black47.contour
 - name: black48
   material: black
   geometry:
@@ -379,11 +379,11 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black52.contour
-#- name: black53
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black53.contour
+- name: black53
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black53.contour
 - name: black54
   material: black
   geometry:
@@ -394,26 +394,26 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black55.contour
-#- name: black56
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black56.contour
-#- name: black57
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black57.contour
+- name: black56
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black56.contour
+- name: black57
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black57.contour
 - name: black58
   material: black
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black58.contour
-#- name: black59
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black59.contour
+- name: black59
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black59.contour
 - name: black60
   material: black
   geometry:
@@ -429,21 +429,21 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black62.contour
-#- name: black63
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black63.contour
-#- name: black64
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black64.contour
-#- name: black65
-#  material: black
-#  geometry:
-#    format: c2c
-#    path: ../contours/heroic_roses/black65.contour
+- name: black63
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black63.contour
+- name: black64
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black64.contour
+- name: black65
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black65.contour
 - name: black66
   material: black
   geometry:
@@ -474,6 +474,11 @@ shapes:
   geometry:
     format: c2c
     path: ../contours/heroic_roses/black71.contour
+- name: black72
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/black72.contour
 - name: red0
   material: red
   geometry:
