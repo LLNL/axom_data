@@ -1,0 +1,8 @@
+dimensions: 3
+units: cm
+shapes:
+  - name: cup
+    material: ceramic
+    geometry:
+      format: proe
+      path: ../quest/cup.proe
