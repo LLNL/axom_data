@@ -1,0 +1,8 @@
+dimensions: 3
+units: cm
+shapes:
+  - name: rectangular_prism 
+    material: clay 
+    geometry:
+      format: proe
+      path: ../quest/rectangular_prism.proe
