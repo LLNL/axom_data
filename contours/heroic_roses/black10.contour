@@ -1,0 +1,25 @@
+piece = line(start=(22cm,78cm), end=(5cm,81cm))
+piece = line(end=(50cm,110cm))
+piece = rz(units=cm,
+  rz=50 110
+     53 112
+     55 115
+     56 120
+     57 127
+)
+
+piece = line(end=(64cm,163cm))
+piece = line(end=(73cm,199cm))
+piece = line(end=(74cm,216cm))
+piece = line(end=(86cm,214cm))
+piece = line(end=(80cm,187cm))
+piece = line(end=(66cm,114cm))
+
+piece = rz(units=cm,
+  rz=66 114
+     64 107
+     61 102
+     56 98
+)
+
+piece = line(end=(22cm,78cm))

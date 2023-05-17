@@ -1,0 +1,1 @@
+piece = circle(origin=(21cm,32cm), radius=8cm, start=0deg, end=360deg)

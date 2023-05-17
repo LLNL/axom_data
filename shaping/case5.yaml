@@ -1,0 +1,49 @@
+dimensions: 2
+
+shapes:
+- name: shape0
+  material: mat0
+  geometry:
+    format: c2c
+    path: ../contours/case5/outer.contour
+- name: shape1
+  material: mat1
+  geometry:
+    format: c2c
+    path: ../contours/case5/uppercircle.contour
+- name: shape2
+  material: mat2
+  does_not_replace: [mat0]
+  geometry:
+    format: c2c
+    path: ../contours/case5/lowercircle.contour
+- name: shape3
+  material: mat3
+  replaces: [mat0]
+  geometry:
+    format: c2c
+    path: ../contours/case5/lowercircle.contour
+- name: shape4
+  material: mat4
+  replaces: [mat1, mat3]
+  geometry:
+    format: c2c
+    path: ../contours/case5/smallcircleupper.contour
+- name: shape5
+  material: mat5
+  replaces: [mat0]
+  geometry:
+    format: c2c
+    path: ../contours/case5/smallcircleupper.contour
+- name: shape6
+  material: mat6
+  replaces: [mat2]
+  geometry:
+    format: c2c
+    path: ../contours/case5/smallcircleupper.contour
+- name: shape7
+  material: mat2
+  replaces: [mat6]
+  geometry:
+    format: c2c
+    path: ../contours/case5/smallcirclelower.contour

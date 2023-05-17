@@ -1,0 +1,6 @@
+# purplish won't cover pink
+piece = line(start=(249cm,26cm), end=(248cm,26cm))
+piece = line(end=(213cm,201cm))
+piece = line(end=(265cm,207cm))
+piece = line(end=(277cm,202cm))
+piece = line(end=(249cm,26cm))

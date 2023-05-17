@@ -1,0 +1,21 @@
+piece = rz(units=cm,
+  rz=347 0
+     343 5
+     341 16
+     338 36
+     338 54
+     336 58
+     334 60     
+)
+
+piece = line(end=(347cm,60cm))
+piece = rz(units=cm,
+  rz=347 60
+     347 49
+     349 37
+     349 23
+     353 12
+     357 0
+)
+
+piece = line(end=(347cm,0cm))
