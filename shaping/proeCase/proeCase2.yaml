@@ -1,0 +1,19 @@
+# Order 0, 1, 2
+dimensions: 3
+
+shapes:
+- name: shape0
+  material: mat0
+  geometry:
+    format: proe 
+    path: ../../quest/rectangular_prism.proe
+- name: shape1
+  material: mat1
+  geometry:
+    format: proe
+    path: ../../quest/adj_tets.proe
+- name: shape2
+  material: mat2
+  geometry:
+    format: proe
+    path: ../../quest/non_adj_tets.proe
