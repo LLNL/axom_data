@@ -3,6 +3,11 @@
 dimensions: 2
 
 shapes:
+  - name: background
+    material: air
+    geometry:
+      format: none
+
   - name: ballUpperOuter
     material: rubber
     geometry:
