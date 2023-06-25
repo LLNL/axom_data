@@ -1,0 +1,26 @@
+# Sample code-agnostic shaping input for the "Ball impact" problem
+# simulating a spherical steel ball impacting a stationary aluminum plate.
+#
+# The region of interest is contained within an axisymmetric bounding box that is [0,30] 
+# in the radial direction and [-10,40] in the Cartesian direction.
+
+dimensions: 2
+units: cm
+
+shapes:
+  - name: initial_background
+    material: air
+    geometry:
+      format: none
+
+  - name: ball
+    material: steel
+    geometry:
+      format: c2c
+      path: ../contours/ball_impact/ball.contour
+
+  - name: wall
+    material: aluminum
+    geometry:
+      format: c2c
+      path: ../contours/ball_impact/wall.contour
