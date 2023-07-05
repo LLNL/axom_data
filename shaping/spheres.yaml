@@ -1,6 +1,11 @@
 dimensions: 3
 units: cm
 shapes:
+  - name: background
+    material: void
+    geometry:
+      format: none
+
   - name: outer_shell
     material: steel
     geometry:
@@ -9,6 +14,7 @@ shapes:
       units: cm
       operators:
         - scale: 5
+
   - name: inner_ball
     material: void
     geometry:

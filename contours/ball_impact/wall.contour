@@ -1,0 +1,5 @@
+point = start_point
+piece = line(start=(0cm, 10.5cm), end=(0cm, 13.0cm))
+piece = line(end=(24.0cm, 13.0cm))
+piece = line(end=(24.0cm, 10.5cm))
+piece = line(end=start_point)
