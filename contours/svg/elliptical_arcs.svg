@@ -1,0 +1,13 @@
+<!-- Tests four arcs with same start and end points and radii as well as transformed ellipses and rounded rects -->
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg"
+  style="stroke:white;fill:none;stroke-width:2;fill-opacity:0.5">
+
+  <path d="M 100 100 A 30 50 0 0 0 150 100" stroke="aqua" />
+  <path d="M 100 100 A 30 50 0 1 1 150 100" stroke="blue" />
+  <path d="M 100 100 A 30 50 0 0 1 150 100" stroke="tomato" />
+  <path d="M 100 100 A 30 50 0 1 0 150 100" stroke="red" />
+
+  <ellipse cx="107.5" cy="100" rx="15" ry="35" transform="rotate(-90 107.5 100)" stroke="green" />
+  <rect rx="20" ry="20" x="50" y="10" width="150" height="200" stroke="black" />
+
+</svg>
