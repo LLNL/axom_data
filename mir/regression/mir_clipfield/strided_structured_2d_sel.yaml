@@ -1,0 +1,33 @@
+
+topologies: 
+  mesh: 
+    type: "unstructured"
+    coordset: "coords"
+    elements: 
+      connectivity: [0, 1, 5, 4, 13, 12, 2, 3, 7, 6, 12, 13, 15, 14, 4, 5, 9, 8, 14, 15, 6, 7, 11, 10]
+      sizes: [4, 4, 4, 4, 4, 4]
+      offsets: [0, 4, 8, 12, 16, 20]
+      shape: "quad"
+coordsets: 
+  coords: 
+    type: "explicit"
+    values: 
+      x: [-3.33333333333333, 0.0, 3.33333333333333, 6.66666666666667, -3.33333333333333, 0.0, 3.33333333333333, 6.66666666666667, -3.33333333333333, 0.0, 3.33333333333333, 6.66666666666667, 3.33333333333333, 6.66666666666667, -3.33333333333333, 0.0]
+      y: [-2.0, -2.0, -2.0, -2.0, 2.0, 2.0, 2.0, 2.0, 6.0, 6.0, 6.0, 6.0, 1.5, 0.5, 3.5, 2.5]
+fields: 
+  color: 
+    topology: "mesh"
+    association: "element"
+    values: [0, 0, 1, 0, 1, 1]
+  ele_vals: 
+    association: "element"
+    topology: "mesh"
+    values: [1.0, 3.0, 3.0, 4.0, 4.0, 6.0]
+  vert_vals: 
+    association: "vertex"
+    topology: "mesh"
+    values: [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 6.5, 6.5, 6.5, 6.5]
+  originalElements: 
+    association: "element"
+    topology: "mesh"
+    values: [0, 2, 2, 3, 3, 5]

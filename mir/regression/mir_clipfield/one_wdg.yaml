@@ -1,0 +1,35 @@
+
+topologies: 
+  topo: 
+    type: "unstructured"
+    coordset: "coords"
+    elements: 
+      connectivity: [4, 5, 3, 2, 2, 3, 4, 10, 7, 9, 4, 3, 10, 8, 9, 7, 6, 10, 2, 8, 6, 10, 2, 6, 7, 3, 10, 9, 8, 2, 4, 10, 6, 7, 0, 8, 9, 1]
+      shapes: [5, 5, 6, 6, 5, 6, 6, 7]
+      sizes: [4, 4, 5, 5, 4, 5, 5, 6]
+      offsets: [0, 4, 8, 13, 18, 22, 27, 32]
+      shape: "mixed"
+      shape_map: 
+        pyramid: 6
+        tet: 5
+        wedge: 7
+coordsets: 
+  coords: 
+    type: "explicit"
+    values: 
+      x: [0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.5, 0.0, 0.5, 0.0, 0.28571429848671]
+      y: [0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.5, 0.0, 0.5, 0.428571432828903]
+      z: [0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.5, 1.0, 0.357142865657806]
+fields: 
+  color: 
+    topology: "topo"
+    association: "element"
+    values: [0, 0, 0, 0, 0, 0, 0, 1]
+  distance: 
+    association: "vertex"
+    topology: "topo"
+    values: [1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, -0.428571492433548]
+  originalElements: 
+    association: "element"
+    topology: "topo"
+    values: [0, 0, 0, 0, 0, 0, 0, 0]
