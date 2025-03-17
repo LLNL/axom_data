@@ -1,0 +1,114 @@
+solid flat_eight_star
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0 0
+      vertex 0.5 0.25 0
+      vertex 0.25 0.25 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.25 0
+      vertex 0.75 0 0
+      vertex 0.75 0.25 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.75 0.25 0
+      vertex 1.0 0.25 0
+      vertex 0.75 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.75 0.5 0
+      vertex 1.0 0.75 0
+      vertex 0.75 0.75 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.75 0
+      vertex 0.75 0.75 0
+      vertex 0.75 1.0 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.75 0
+      vertex 0.5 0.75 0
+      vertex 0.25 1.0 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.5 0
+      vertex 0.25 0.75 0
+      vertex 0 0.75 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0.25 0
+      vertex 0.25 0.25 0
+      vertex 0.25 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.25 0
+      vertex 0.5 0.25 0
+      vertex 0.25 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.5 0
+      vertex 0.5 0.25 0
+      vertex 0.5 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.25 0
+      vertex 0.75 0.25 0
+      vertex 0.5 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.5 0
+      vertex 0.75 0.25 0
+      vertex 0.75 0.5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.5 0
+      vertex 0.75 0.5 0
+      vertex 0.5 0.75 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 0.75 0
+      vertex 0.75 0.5 0
+      vertex 0.75 0.75 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.5 0
+      vertex 0.5 0.5 0
+      vertex 0.25 0.75 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.25 0.75 0
+      vertex 0.5 0.5 0
+      vertex 0.5 0.75 0
+    endloop
+  endfacet
+endsolid flat_eight_star

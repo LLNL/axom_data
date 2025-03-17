@@ -1,0 +1,8 @@
+dimensions: 2
+units: cm
+shapes:
+  - name: flat_eight_point_star 
+    material: steel
+    geometry:
+      format: stl 
+      path: ../quest/flat_eight_point_star.stl
