@@ -1,0 +1,533 @@
+dimensions: 2
+
+shapes:
+- name: greenishbrown0
+  material: greenishbrown
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/greenishbrown.mesh
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/brightgreen.mesh
+  does_not_replace: ["greenishbrown"]
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen0.mesh
+- name: darkgreen1
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen1.mesh
+- name: darkgreen2
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen2.mesh
+- name: darkgreen3
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen3.mesh
+- name: darkgreen4
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen4.mesh
+- name: darkgreen5
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen5.mesh
+- name: blue0
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue0.mesh
+- name: blue1
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue1.mesh
+- name: blue2
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue2.mesh
+- name: blue3
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue3.mesh
+- name: blue4
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue4.mesh
+- name: blue5
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue5.mesh
+- name: blue6
+  material: blue
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/blue6.mesh
+- name: yellow0
+  material: yellow
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/yellow0.mesh
+- name: yellow1
+  material: yellow
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/yellow1.mesh
+- name: yellow2
+  material: yellow
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/yellow2.mesh
+- name: purplish0
+  material: purplish
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/purplish0.mesh
+- name: purplish1
+  material: purplish
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/purplish1.mesh
+- name: pink0
+  material: pink
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/pink0.mesh
+  does_not_replace: ["darkgreen"]
+- name: pink1
+  material: pink
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/pink1.mesh
+  does_not_replace: ["darkgreen"]
+- name: black0
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black0.mesh
+- name: black1
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black1.mesh
+- name: black2
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black2.mesh
+- name: black3
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black3.mesh
+- name: black4
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black4.mesh
+- name: black5
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black5.mesh
+- name: black6
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black6.mesh
+- name: black7
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black7.mesh
+- name: black8
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black8.mesh
+- name: black9
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black9.mesh
+- name: black10
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black10.mesh
+- name: black11
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black11.mesh
+- name: black12
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black12.mesh
+- name: black13
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black13.mesh
+- name: black14
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black14.mesh
+- name: black15
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black15.mesh
+- name: black16
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black16.mesh
+- name: black17
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black17.mesh
+- name: black18
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black18.mesh
+- name: black19
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black19.mesh
+- name: black20
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black20.mesh
+- name: black21
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black21.mesh
+- name: black22
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black22.mesh
+- name: black23
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black23.mesh
+- name: black24
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black24.mesh
+- name: black25
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black25.mesh
+- name: black26
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black26.mesh
+- name: black27
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black27.mesh
+- name: black28
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black28.mesh
+- name: black29
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black29.mesh
+- name: black30
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black30.mesh
+- name: black31
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black31.mesh
+- name: black32
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black32.mesh
+- name: black33
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black33.mesh
+- name: black34
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black34.mesh
+- name: black35
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black35.mesh
+- name: black36
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black36.mesh
+- name: black37
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black37.mesh
+- name: black38
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black38.mesh
+- name: black39
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black39.mesh
+- name: black40
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black40.mesh
+- name: black41
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black41.mesh
+- name: black42
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black42.mesh
+- name: black43
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black43.mesh
+- name: black44
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black44.mesh
+- name: black45
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black45.mesh
+- name: black46
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black46.mesh
+- name: black47
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black47.mesh
+- name: black48
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black48.mesh
+- name: black49
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black49.mesh
+- name: black50
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black50.mesh
+- name: black51
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black51.mesh
+- name: black52
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black52.mesh
+- name: black53
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black53.mesh
+- name: black54
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black54.mesh
+- name: black55
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black55.mesh
+- name: black56
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black56.mesh
+- name: black57
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black57.mesh
+- name: black58
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black58.mesh
+- name: black59
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black59.mesh
+- name: black60
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black60.mesh
+- name: black61
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black61.mesh
+- name: black62
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black62.mesh
+- name: black63
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black63.mesh
+- name: black64
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black64.mesh
+- name: black65
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black65.mesh
+- name: black66
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black66.mesh
+- name: black67
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black67.mesh
+- name: black68
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black68.mesh
+- name: black69
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black69.mesh
+- name: black70
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black70.mesh
+- name: black71
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black71.mesh
+- name: black72
+  material: black
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/black72.mesh
+- name: red0
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red0.mesh
+  does_not_replace: ["black"]
+- name: red1
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red1.mesh
+  does_not_replace: ["black"]
+- name: red2
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red2.mesh
+  does_not_replace: ["black"]
+- name: red3
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red3.mesh
+  does_not_replace: ["black"]
+- name: red4
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red4.mesh
+  does_not_replace: ["black"]
+- name: red5
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red5.mesh
+  does_not_replace: ["black"]
+- name: red6
+  material: red
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/red6.mesh
+  does_not_replace: ["black"]
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/brightgreen_over.mesh
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: mfem
+    path: ../contours/heroic_roses/mfem/darkgreen_over1.mesh

@@ -1,0 +1,72 @@
+MFEM NURBS mesh v1.0
+
+# MFEM Geometry Types (see fem/geom.hpp):
+#
+# SEGMENT = 1 | SQUARE = 3 | CUBE = 5
+#
+# element: <attr> 1 <v0> <v1>
+# edge: <idx++> 0 1  <-- idx increases by one each time
+# knotvector: <order> <num_ctrl_pts> [knots]; sizeof(knots) is 1+order+num_ctrl_pts
+# weights: array of weights corresponding to the NURBS element
+# FES: list of control points; vertex control points at top, then interior control points
+
+dimension
+1
+
+elements
+5
+1 1 0 1
+1 1 2 3
+1 1 4 5
+1 1 6 7
+1 1 8 9
+
+boundary
+0
+
+edges
+5
+0 0 1
+1 0 1
+2 0 1
+3 0 1
+4 0 1
+
+vertices
+10
+
+knotvectors
+5
+3 4 0 0 0 0 1 1 1 1
+3 4 0 0 0 0 1 1 1 1
+3 4 0 0 0 0 1 1 1 1
+3 4 0 0 0 0 1 1 1 1
+3 4 0 0 0 0 1 1 1 1
+
+weights
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+
+FiniteElementSpace
+FiniteElementCollection: NURBS
+VDim: 2
+Ordering: 1
+
+58.0 91.0 71.0 85.0
+71.0 85.0 101.0 85.0
+101.0 85.0 95.0 92.0
+95.0 92.0 66.0 94.0
+66.0 94.0 58.0 91.0
+66.0 85.5 63.0 86.0
+83.0 84.0 76.0 84.5
+97.0 89.66666666666669 99.0 87.33333333333331
+78.0 93.0 86.0 92.0
+60.66666666666667 92.0 63.33333333333334 93.0

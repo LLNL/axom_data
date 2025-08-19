@@ -13,7 +13,7 @@ def write_yaml(f, shapes):
             fn = s["file"]
             if "%d" in fn:
                 fn = fn % i
-            f.write(f"    path: ../contours/heroic_roses/{fn}\n")
+            f.write(f"    path: ../contours/heroic_roses/c2c/{fn}\n")
             if s["dnr"]:
                 lststr = str(s["dnr"]).replace("'",'"')
                 f.write(f"  does_not_replace: {lststr}\n")
