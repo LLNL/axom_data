@@ -1,0 +1,57 @@
+dimensions: 2
+shapes:
+ - name: brightgreen
+   material: brightgreen
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/brightgreen.mesh
+ - name: greenishbrown
+   material: greenishbrown
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/greenishbrown.mesh
+ - name: darkgreen
+   material: darkgreen
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/darkgreen.mesh
+ - name: blue
+   material: blue
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/blue.mesh
+ - name: yellow
+   material: yellow
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/yellow.mesh
+ - name: purplish
+   material: purplish
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/purplish.mesh
+ - name: pink
+   material: pink
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/pink.mesh
+ - name: red
+   material: red
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/red.mesh
+ - name: black
+   material: black
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/black.mesh
+ - name: brightgreen_over
+   material: brightgreen_over
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/brightgreen_over.mesh
+ - name: darkgreen_over1
+   material: darkgreen_over1
+   geometry:
+     format: mfem
+     path: ../contours/heroic_roses/mfem_cp/darkgreen_over1.mesh
